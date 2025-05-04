@@ -80,7 +80,7 @@ The objective is to build and evaluate a **sentiment analysis** pipeline using *
 
 - 🟡 Multinomial Naive Bayes** (with GridSearchCV)
 
-- 🔜 Deep Learning model (If time allows..)
+- 🔵 Deep Learning model (LSTM)
 
 ---
 
