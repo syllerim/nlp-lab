@@ -2,7 +2,7 @@
 
 # 💬 NLP – Sentiment Analysis Assignment 🧐
 
-✍️ **Author:** Mirellys Arteta Davila
+### ✍️ **Author:** Mirellys Arteta Davila
 
 This project is part of the **Natural Language Processing** (NLP) module from the **KeepCoding AI Bootcamp**.  
 The objective is to build and evaluate a **sentiment analysis** pipeline using **Amazon product reviews**.
@@ -66,8 +66,53 @@ The objective is to build and evaluate a **sentiment analysis** pipeline using *
 
 ---
 
+## 🧹 Preprocessing
+
+- Custom pipeline: normalization, tokenization, stopword removal, optional stemming  
+- Duplicates removed based on cleaned token sequences  
+- TF-IDF vectorization for model input
+
+---
+
+## 🤖 Models
+
+- ✅ Logistic Regression** (with GridSearchCV)
+
+- 🟡 Multinomial Naive Bayes** (with GridSearchCV)
+
+- 🔜 Deep Learning model (If time allows..)
+
+---
+
+## 📊 Evaluation
+
+- Accuracy, precision, recall, F1-score
+- Confusion matrix and classification report
+- Threshold-based analysis using precision-recall curves
+- Visual performance vs regularization plots for each ML model
+
 ## 🛠️ Tools & Libraries
 
-- Python
-- pandas, matplotlib, numpy, seaborn
-- nltk, wordcloud, scikit-learn
+### 🧪 Data & Preprocessing
+- `pandas`, `numpy` → Data handling and manipulation
+- `string`, `re`, `unicodedata` → Text normalization and cleanup
+- `random`, `pickle`, `collections.Counter` → Utilities and storage
+- `nltk` → Tokenization, stopword removal, stemming, n-grams
+
+### 📊 Visualization
+- `matplotlib.pyplot`, `seaborn` → Data plots, metrics, and trends
+- `WordCloud` → Visualize most frequent terms
+- `FreqDist` (nltk) → Token frequency analysis
+
+### 🤖 Machine Learning
+- `scikit-learn`:
+  - `TfidfVectorizer` → Bag-of-Words (TF-IDF) encoding
+  - `LogisticRegression`, `MultinomialNB` → Classifiers
+  - `GridSearchCV`, `train_test_split` → Model selection and evaluation
+  - `chi2` → Feature selection
+  - `classification_report`, `confusion_matrix`, `accuracy_score`, `precision_recall_curve`, `roc_curve` → Evaluation metrics
+
+---
+
+### 📝 NLTK Resources
+- `stopwords` → English stopword list (downloaded at runtime)
