@@ -1,3 +1,5 @@
+![Keepcoding](keepcoding.png)
+
 # 💬 NLP – Sentiment Analysis Assignment 🧐
 
 ✍️ **Author:** Mirellys Arteta Davila
